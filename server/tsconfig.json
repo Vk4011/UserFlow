@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                     // Target ECMAScript 6
+      "module": "CommonJS",               // Use CommonJS module system
+      "strict": true,                     // Enable strict type-checking
+      "esModuleInterop": true,            // Allow default imports from CommonJS modules
+      "skipLibCheck": true,               // Skip type checking of declaration files
+      "outDir": "./dist",                 // Output directory for compiled files
+      "experimentalDecorators": true,     // Enable support for decorators
+      "emitDecoratorMetadata": true,      // Emit metadata for decorators
+      "strictPropertyInitialization": false, // Disable strict initialization for properties
+      "moduleResolution": "node",         // Resolve modules in Node.js style
+      "forceConsistentCasingInFileNames": true, // Enforce consistent file naming
+      "resolveJsonModule": true           // Allow importing JSON files
+    },
+    "include": ["src/**/*.ts"],           // Include all TypeScript files in the src folder
+    "exclude": ["node_modules"]           // Exclude the node_modules folder
+  }
+  
